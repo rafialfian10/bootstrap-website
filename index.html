@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS vanilaa -->
+    <style>
+        section {
+            min-height: 450px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+             <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Rafi Alfian</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link" href="#port">Portofolio</a>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+    <!-- End Navbar -->
+    
+    <!-- Jumbotron -->
+    <div class = "mb-4 p-5 bg-secondary text-white">
+        <div class="container text-center">
+            <h1 class="text-center mb-4">Rafi Alfian</h1>
+            <img src="img/profile.jpg" alt="Rafi Alfian" width="25%" class="rounded-circle mb-5">
+            <p class="text-center">Selamat Datang di Pendidikan Teknik Informatika Universitas Muhammadiyah Surakarta</p> 
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+
+    <!-- Halaman About -->
+    <section id="about" class="about">
+        <div class="container bg-light mb-4 p-5">
+            <div class="row mb-2">
+                <div class="col text-center">
+                    <h2>About</h2>
+                </div>
+            </div>
+    
+            <div class="row text-center">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sit autem libero expedita dolores eaque natus commodi laborum aut reiciendis quos quae, inventore mollitia quasi similique quia architecto veniam perspiciatis soluta tempora eius facere cum nihil earum. Facere, non perferendis!</p>
+                </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi modi ad esse aliquid ea consequuntur tenetur? Illum, fuga similique, qui recusandae id facere dignissimos voluptas vitae nesciunt et, placeat necessitatibus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Halaman About -->
+
+    <!-- Portofolio -->
+    <section id="port" class="port">
+        <div class="container bg-light mb-4 p-5 ">
+            <div class="row mb-2">
+                <div class="col text-center">
+                    <h2>Portofolio</h2>
+                </div>
+            </div>
+    
+            <div class="row mb-4">
+                <div class="col-md">  <!-- md(ukuran=1024) jika lebih kecil dari md maka jadikan 1 colom -->
+                    <div class="card">
+                        <img src="img/1.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/2.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/3.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mb-4">
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/4.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/5.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/6.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portofolio -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container p-3 mb-4 bg-light">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h2>Contact Us</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-5">
+                    <div class="card text-white bg-primary mb-3 text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Contact Us</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, a!</p>
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Location</li>
+                        <li class="list-group-item">My Home</li>
+                        <li class="list-group-item">Jl.Gempol Nalumsari Jepara</li>
+                        <li class="list-group-item">Central Java, Indonesia</li>
+                      </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nama</label>
+                        <input type="text" id="name" class="form-control" aria-describedby="passwordHelpBlock">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" aria-describedby="passwordHelpBlock">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nohp" class="form-label">No.Handphone</label>
+                        <input type="password" id="nohp" class="form-control" aria-describedby="passwordHelpBlock">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan" class="form-label">Message</label>
+                        <textarea name="" id="pesan" class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <button type="submit" id="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col">
+                    <p>Copyright 2022</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+ 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
